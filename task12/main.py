@@ -9,6 +9,4 @@ def get_index():
     return FileResponse("index.html")
 
 
-# Запуск:
-# uvicorn main:app --reload
-# Открыть: http://localhost:8000
+
