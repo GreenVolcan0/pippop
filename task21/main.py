@@ -26,9 +26,3 @@ def get_feedbacks():
     return feedbacks
 
 
-# Пример запроса:
-# curl -X POST http://localhost:8000/feedback \
-#      -H "Content-Type: application/json" \
-#      -d '{"name": "Rustam", "message": "Отличный день! Мне нравится ходить в школу!"}'
-#
-# Ответ: {"message": "Feedback received. Thank you, Rustam."}
